@@ -5,14 +5,14 @@ GUI for tracking objects using lighting threshold and motion combined with mask
 Download VideoTrack.py and run on a machine with Python 3 installed <br>
 Install the following modules:
 ```
-pip install Pillow
+pip install pillow
 pip install opencv
 ```
 
 ## Usage
-1. Go to bottom of Tracker and insert url of video to test on
+1. Go to bottom of Tracker.py and insert url of video to test on
 2. Save and run file
-3. GUI should appear. Adjust sliders to find satisfactory setting:
+3. GUI should appear, adjust sliders to find satisfactory setting:
 - **Threshold**: Sets bound for which to ignore pixels with values less than threshold
 - **Blob Opacity**: Changes the opacity of the unfiltered pixels overlaid with original video
 - **Mask Dilation**: Expands the mask used to ignore pixels that overlap
