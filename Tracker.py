@@ -204,8 +204,8 @@ if __name__ == "__main__":
     # insert video url here
     # if url is in same folder, it should just be the name of the video
     # for eg:
-    url = 'wires-fixedSphere_original.avi'
-    # url = ""
+    # url = 'wires-fixedSphere_original.avi'
+    url = ""
 
     # how fast to play back the footage
     # doesn't necessarily follow through, bottle-necked by the video processing
